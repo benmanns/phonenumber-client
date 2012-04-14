@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "phonenumber-client"
   gem.homepage = "http://github.com/benmanns/phonenumber-client"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A Ruby client for phonenumber.herokuapp.com based on libphonenumber.}
+  gem.description = %Q{A Ruby client for phonenumber.herokuapp.com based on libphonenumber.}
   gem.email = "benmanns@gmail.com"
   gem.authors = ["Benjamin Manns"]
   # dependencies defined in Gemfile
