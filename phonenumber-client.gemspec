@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Benjamin Manns"]
   s.date = "2012-04-14"
-  s.description = "TODO: longer description of your gem"
+  s.description = "A Ruby client for phonenumber.herokuapp.com based on libphonenumber."
   s.email = "benmanns@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/phonenumber-client.rb",
+    "phonenumber-client.gemspec",
     "spec/phonenumber-client_spec.rb",
     "spec/spec_helper.rb"
   ]
@@ -33,7 +34,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "A Ruby client for phonenumber.herokuapp.com based on libphonenumber."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
